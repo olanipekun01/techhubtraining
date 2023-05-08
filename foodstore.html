@@ -3,9 +3,9 @@
 <head>
   <title>Online foodstore</title>
   
-  <style src="./desktop/style.css"></style>
-  
+
   <style>
+
     body {
       background-color: hsl(257, 40%, 49%);
     }
@@ -25,15 +25,69 @@
     
     nav {
       margin-top: 30px;
-      width: 400px;
+      width: 600px;
       display: flex;
       justify-content: space-between;
+      margin-right: 90px;
     }
     
     a {
       color: #ffffff;
       text-decoration: none;
     }
+
+    main {
+      display: flex;
+      flex-direction: row;
+      margin-top: 70px;
+    }
+
+    .left_section figure img{
+      width: 900px;
+    }
+
+    .right_section {
+        width: 900px;
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+
+    .right_section h2 {
+      font-size: 50px;
+      width: 550px;
+      color: white;
+    }
+
+    .right_section p {
+      font-size: 24px;
+      color: white;
+      width: 620px;
+    }
+
+    .right_section button {
+      width: 250px;
+      height: 60px;
+      color: #000000;
+      border-radius: 30px;
+      font-size: 24px;
+      margin-top: 50px;
+    }
+
+    footer {
+      margin-top: 40px;
+    }
+
+    footer div {
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 50px;
+
+    }
+
+    footer div a {
+      margin-left: 50px;
+    }
+
   </style>
 </head>
 
@@ -49,12 +103,12 @@
     </nav>
   </header>
   <main>
-    <section>
+    <section class="left_section">
       <figure>
-        <img src="https://res.cloudinary.com/dpg5xmhf3/image/upload/v1683469526/media/illustration-mockups_fbuf4f.svg" />
+        <img  class="illustrion" src="https://res.cloudinary.com/dpg5xmhf3/image/upload/v1683469526/media/illustration-mockups_fbuf4f.svg" />
       </figure>
     </section>
-    <section>
+    <section class="right_section">
       <h2>Build The Community Your Fans Will Love</h2>
       <p>Foodstore re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
       <!-- i created a button tag -->
